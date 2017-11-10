@@ -6,6 +6,12 @@ easy way for humans to take small amounts of binary data and:
 - write it down
 - or say it over the telephone
 
+### behavior
+
+guarantees matching input and output content and length,
+
+but does include any correctness check for user-error (e.g. skipped or swapped words)
+
 ### example
 
 ```js
