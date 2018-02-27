@@ -11,7 +11,7 @@ const INVALID_ENCODING = 'Invalid encoding'
 const INVALID_LANGUAGE = 'Invalid language'
 const INVALID_CHECKSUM = 'Invalid encoded checksum'
 
-module.exports = { encode, decode }
+module.exports = { encode, decode, rawEncode, rawDecode }
 
  // buffer -> bitArray -> word chunks -> word buffers -> word ints -> words
  // words -> word ints -> word buffers
@@ -116,4 +116,3 @@ function rawDecode (encoded, language = DEFAULT_LANGUAGE) {
 
   return decoded
 }
-
