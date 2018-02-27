@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "unorm": "^1.4.1"
   }
 }
